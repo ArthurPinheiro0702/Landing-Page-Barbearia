@@ -3,9 +3,7 @@
 body {
     background: black;
 }
-#nomeApp {
-    color: gold;
-}   
+
 
 .primeira-parte {
     background: url(img/Design\ sem\ nome.png);
@@ -82,6 +80,7 @@ span, i{
     position: relative;
     color: whitesmoke !important;
     transition: color 0.5s;
+    letter-spacing: 2px;
 }
 
 .nav-link::after {
@@ -160,11 +159,6 @@ span, i{
 
 .card:hover {
     transform: translateY(-10px);
-}
-
-#precos {
-    position: relative;
-    background: whitesmoke;
 }
 
 
