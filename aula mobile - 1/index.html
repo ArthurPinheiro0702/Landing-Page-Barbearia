@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulário de Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-dark shadow-sm">
+        <div class="container">
+            <a href="" class="navbar-brand fw-bold text-light">
+                <i class="bi bi-scissors"></i>
+                <h2 class="fw-bold">Barber<span id="nomeApp">Shop</span></h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#funcionalidades">Funcionalidades</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Feedback</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#contato">Entre em contato</a>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+    </nav>
+
+    <section class="primeira-parte text-white align-items-center">
+        <div class="container">
+            <div class="row align-items-center gy-5 justify-content-center">
+                <div class="col-lg-6 text-center text-light-start" id="mensagem-centro">
+                    <h1 class="display-4 mb-4" id="textoPrincipal">Transforme o seu negócio em <span class="text-warning">NEGÓCIO</span></h1>
+                    <p id="textoSecundario">com a nossa visão de negócio, seu negócio vira internacional</p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+                        <a class="btn btn-outline-light btn-lg w-100 w-sm-auto" href="#contato">Conheça já!</a>
+                        <a class="btn btn-outline-light btn-lg w-100 w-sm-auto" id="botaoDourado" href="#contato">Quero saber mais</a>
+                    </div>
+                </div>
+                    <div class="col-lg-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="funcionalidades">
+        <div class="container justify-content-center text-center">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="bg-warning" style="height: 2px; width: 80px;"></div>
+                <i class="bi bi-scissors fs-4" style="padding: 10px;"></i>
+                <div class="bg-warning" style="height: 2px; width: 80px;"></div>
+            </div>
+            <h1 class="display-4 mb-4 fw-bold">Nossas <span>Funcionalidades</span></h1>
+            <p class="fs-4">Principais funcionalidades do nosso sistema </p>
+            <div class="row justify-content-center text-center" id="cardsDiv">
+                <div class="col-4 mb-4">
+                    <div class="card h-100 p-4 d-flex flex-column justify-content-between position-relative">
+                        <div>
+                            <i class="bi bi-clock fs-3"></i>
+                        </div>
+                        <h4>Lembrete de Horários</h4>
+                       <p>Diminua o risco de esquecimentos/ausências dos seus clientes através dos Lembretes de Horários do nosso App.</p>
+                       <button class="btn btn-outline-light">Saiba mais!</button>
+                    </div>
+                </div>
+                <div class="col-4 mb-4">
+                    <div class="card h-100 p-4 d-flex flex-column justify-content-between position-relative">
+                       <div>
+                        <i class="bi bi-calendar-date fs-3"></i>
+                       </div>
+                       <h4>Controle automatizado da Agenda</h4>
+                       <p>Ter a agenda on-line e disponível para seus clientes e/ou profissionais agendarem tem grandes vantagens.</p>
+                       <button class="btn btn-outline-light">Saiba mais!</button>
+                    </div>
+                </div>
+                <div class="col-4 mb-4">
+                    <div class="card h-100 p-4 d-flex flex-column justify-content-between position-relative">
+                       <div>
+                       <i class="bi bi-calendar3 fs-3"></i>
+                       </div>
+                       <h4>Flexibilização da Agenda dos Profissionais</h4>
+                       <p>Jornada por dia da semana e Jornada por Período</p>
+                       <button class="btn btn-outline-light">Saiba mais!</button>
+                    </div>
+                </div>
+                <div class="col-4 mb-4">
+                    <div class="card h-100 p-4 d-flex flex-column justify-content-between position-relative">
+                       <div>
+                       <i class="bi bi-wifi fs-3"></i>
+                       </div>
+                       <h4>On-line 24h por dia, 7 dias por semana!</h4>
+                       <p>Ter a sua Barbearia on-line traz muitas vantagens.</p>
+                       <button class="btn btn-outline-light">Saiba mais!</button>
+                    </div>
+                </div>
+                <div class="col-4 mb-4">
+                    <div class="card h-100 p-4 d-flex flex-column justify-content-between position-relative">
+                       <div>
+                       <i class="bi bi-cash-stack fs-3"></i>
+                       </div>
+                       <h4>Gestão Financeira</h4>
+                       <p>Ter o controle do seu estabelecimento é primordial para o sucesso do seu negócio.</p>
+                       <button class="btn btn-outline-light">Saiba mais!</button>
+                    </div>
+                </div>
+                <div class="col-4 mb-4">
+                    <div class="card h-100 p-4 d-flex flex-column justify-content-between position-relative">
+                       <div>
+                       <i class="bi bi-globe fs-3"></i>
+                       </div>
+                       <h4>Site do Estabelecimento</h4>
+                       <p>Ter um site é um fator muito importante para divulgação do seu negócio.</p>
+                       <button class="btn btn-outline-light">Saiba mais!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precos" class="py-5">
+        <div class="container p-5">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="bg-warning" style="height: 2px; width: 80px;"></div>
+                <i class="bi bi-cash fs-4" style="padding: 10px;"></i>
+                <div class="bg-warning" style="height: 2px; width: 80px;"></div>
+            </div>
+            <div class="text-center">
+                <h1 class="fw-bold mb-4 display-4" style="color: black;">Nossos <span>Preços</span></h1>
+                <p class="fs-4">Escolha o plano que mais se adapta a sua necessidade.</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 mx-auto">
+                <div class="card h-100 p-4" style="border: 1px solid black">
+                    <div class="text-center card-body">
+                        <h4 class="fw-bold">Plano Básico</h4>
+                        <p>ideal para pequenas empresas</p>
+                        <h5>R$ 25/mês</h5>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">Acesso parcial às funcionalidades do sistema</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">100 GB de armazenamento</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">Acesso offline</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-x text-danger me-2">Não ganha um pastel e uma coca</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-x text-danger me-2">Tá duro dorme</i>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-light w-100">Selecione</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mx-auto">
+                <div class="card h-100 p-4" style="border: 1px solid black">
+                    <div class="text-center card-body">
+                        <span class=""></span>
+                        <h4 class="fw-bold">Plano Premium</h4>
+                        <p class="text-muted">ideal para médias empresas</p>
+                        <h5>R$ 50/mês</h5>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">Acesso parcial às funcionalidades do sistema</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">100 GB de armazenamento</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">Acesso offline</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-x text-danger me-2">Não ganha um pastel e uma coca</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-x text-danger me-2">Tá duro dorme</i>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-light w-100">Selecione</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mx-auto">
+                <div class="card h-100 p-4" style="border: 1px solid black">
+                    <div class="text-center card-body">
+                        <h4 class="fw-bold">Plano Enterprise</h4>
+                        <p class="text-muted">Contate-nos para saber mais</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">Acesso parcial às funcionalidades do sistema</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">100 GB de armazenamento</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-check text-primary me-2">Acesso offline</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-x text-danger me-2">Não ganha um pastel e uma coca</i>
+                            </li>
+                            <li class="mb-2 text-start">
+                                <i class="bi bi-x text-danger me-2">Tá duro dorme</i>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-light w-100">Contate-nos!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="align-items-center pt-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body shadow-sm p-5">
+                            <h2 class="fw-bold">Entre em contato</h2>
+                            <p>Estamos aqui para ajudar!</p>
+
+                            <form>
+                                <div class="mb-3 text-start form-floating">
+                                    <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
+                                    <label for="nome" class="form-label">Digite seu nome completo :</label>
+                                </div>
+
+                                <div class="mb-3 text-start form-floating">
+                                    <input type="email" id="email" class="form-control" placeholder="email@exemplo.com">
+                                    <label for="email" class="form-label">Email para contato :</label>
+                                </div>
+
+                                <div class="mb-3 text-start form-floating">
+                                    <textarea id="faleMais" rows="4" class="form-control"placeholder="Descreva seu problema..."></textarea>
+                                    <label for="faleMais" class="form-label">Nos resuma seu problema :</label>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-outline-light btn-lg">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-light fs-1 ">Feedback</h2>
+                <p class="fs-4">Depoimentos dos nosso clientes.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="img/negodi.png" alt="" class="imagem-testemunha">
+                            <div class="ms-3">
+                                <h5 class="bm-0 text-light">Nego Di</h5>
+                                <small>Cargo: Presidiário</small>
+                            </div>
+                        </div>
+                        <p class="card-text">Excelente Sistema!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="img/damiao.png" alt="" class="imagem-testemunha">
+                            <div class="ms-3">
+                                <h5 class="bm-0 text-light">Leandro Damião</h5>
+                                <small>Cargo: Jogador de Pelota</small>
+                            </div>
+                        </div>
+                        <p class="card-text">Baita sistema cpx!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="img/craqueneto.png" alt="" class="imagem-testemunha">
+                            <div class="ms-3">
+                                <h5 class="bm-0 text-light">Craque Neto</h5>
+                                <small>Cargo: Apresentador</small>
+                            </div>
+                        </div>
+                        <p class="card-text">Bagulho bom do #######!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="img/craqueneto.png" alt="" class="imagem-testemunha">
+                            <div class="ms-3">
+                                <h5 class="bm-0 text-light">Craque Neto</h5>
+                                <small>Cargo: Apresentador</small>
+                            </div>
+                        </div>
+                        <p class="card-text">Bagulho bom do #######!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="img/craqueneto.png" alt="" class="imagem-testemunha">
+                            <div class="ms-3">
+                                <h5 class="bm-0 text-light">Craque Neto</h5>
+                                <small>Cargo: Apresentador</small>
+                            </div>
+                        </div>
+                        <p class="card-text">Bagulho bom do #######!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="img/craqueneto.png" alt="" class="imagem-testemunha">
+                            <div class="ms-3">
+                                <h5 class="bm-0 text-light">Craque Neto</h5>
+                                <small>Cargo: Apresentador</small>
+                            </div>
+                        </div>
+                        <p class="card-text">Bagulho bom do #######!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-light py-4">
+        <div class="container text-center">
+            <p class="mb-0">TODOS DIREITOS RESERVADOS</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
