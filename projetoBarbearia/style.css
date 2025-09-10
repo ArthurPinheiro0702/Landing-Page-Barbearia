@@ -2,6 +2,7 @@
 
 body {
     background: black;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -9,8 +10,34 @@ body {
     background: url(img/Design\ sem\ nome.png);
     background-position: 10% center;
     height: 100vh;
-    min-height: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .primeira-parte {
+        background-image: url(img/fundoResponsivo.png);
+        justify-content: center;
+        text-align: center;
+        height: 95vh;
+    }
+    #mensagem-centro p {
+        color: whitesmoke;
+        font-size: 1rem !important;
+        margin: 0 20px;
+        letter-spacing: 1px;
+    }
+    #mensagem-centro h1 {
+        font-size: 3rem !important;
+        margin: 0 20px;
+    }
+    .navbar {
+        background: rgba(0, 0, 0, 0.5) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+    
 }
 
 .primeira-parte::after {
@@ -35,7 +62,7 @@ h1, h2, h3, h4, small, p, i, a, label {
     font-family: "Poppins";
     color: whitesmoke;
 }
-p {
+p, small {
     color: rgb(173, 173, 173);
 }
 span, i{
@@ -102,16 +129,6 @@ span, i{
     width: 100%;
 }
 
-#textoPrincipal {
-    font-size: 4.5rem;
-    font-weight: 700;
-}
-
-#textoSecundario {
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
 .btn-outline-light {
     border: 2px solid rgba(255, 255, 255, 0.8);
     background: transparent;
@@ -160,6 +177,13 @@ span, i{
 .card:hover {
     transform: translateY(-10px);
 }
+
+#precos{
+    background-image: url(img/imagemFundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 @keyframes fadeInUp {
