@@ -141,8 +141,6 @@ span, i{
 
 .card {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     border: 1px solid whitesmoke;
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(245, 245, 245, 0.048);
@@ -164,11 +162,9 @@ span, i{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.section-padrao {
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.card-preco {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.295));
+    border: none;
 }
 .carousel-item .card {
     width: 70%;
