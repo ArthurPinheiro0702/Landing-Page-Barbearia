@@ -6,7 +6,7 @@ body {
 }
 
 .primeira-parte {
-    background: url(img/Design\ sem\ nome.png);
+    background: url(img/fundoNormal.png);
     background-position: 10% center;
     height: 100vh;
     background-size: cover;
@@ -26,8 +26,9 @@ body {
     z-index: 2;
 }
 
+
+
 #mensagem-centro {
-    margin-top: 15%;
     animation: fadeInUp 1s ease;
 }
 
@@ -114,6 +115,14 @@ span, i{
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(255, 215, 0, 0.3);
 }
+.principal {
+    background-image: linear-gradient(to bottom, gold, darkorange) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 5px rgba(255, 217, 0, 0.404);
+}
 #botaoDourado {
     border: 2px solid gold;
     background: gold;
@@ -134,7 +143,6 @@ span, i{
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(245, 245, 245, 0.048);
     transition: all 0.3s ease;
-    overflow: hidden;
     min-height: 350px;
     display: flex;
     flex-direction: column;
