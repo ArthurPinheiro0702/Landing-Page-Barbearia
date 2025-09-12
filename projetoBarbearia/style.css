@@ -5,7 +5,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-
 .primeira-parte {
     background: url(img/Design\ sem\ nome.png);
     background-position: 10% center;
@@ -14,7 +13,6 @@ body {
     background-repeat: no-repeat;
     position: relative;
 }
-
 
 .primeira-parte::after {
     content: "";
@@ -29,7 +27,7 @@ body {
 }
 
 #mensagem-centro {
-    margin-top: 20%;
+    margin-top: 15%;
     animation: fadeInUp 1s ease;
 }
 
@@ -37,6 +35,7 @@ body {
 h1, h2, h3, h4, small, p, i, a, label {
     font-family: "Poppins";
     color: whitesmoke;
+    letter-spacing: 1px;
 }
 p, small {
     color: rgb(173, 173, 173);
@@ -45,21 +44,12 @@ span, i{
     color: gold;
 }
 
-#cardsDiv {
-    margin-top: 5%;
-}
 
 .navbar {
-    background: transparent !important;
+    backdrop-filter: blur(10px);
     transition: all 0.5s ease;
     padding: 1.5rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.navbar.scrolled {
-    background: rgba(0, 0, 0, 0.5) !important;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
 }
 
 .navbar-brand {
@@ -83,7 +73,6 @@ span, i{
     position: relative;
     color: whitesmoke !important;
     transition: color 0.5s;
-    letter-spacing: 2px;
 }
 
 .nav-link::after {
@@ -157,18 +146,9 @@ span, i{
     transform: translateY(-10px);
 }
 
-#precos{
-    background-image: url(img/imagemFundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.card-preco {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.295));
-    border: none;
-}
 .carousel-item .card {
-    width: 70%;
-    justify-self: center;
+    width: 70%; 
+    margin: 0 auto;
     animation: FadeInRight 1s ease;
 }
 .carousel-item .card:hover {
@@ -204,17 +184,15 @@ span, i{
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .primeira-parte {
-        background-image: url(img/fundoResponsivo.png);
+        background: none;
         justify-content: center;
         text-align: center;
-        height: 95vh;
+        height:auto;
     }
-    .navbar {
-        background: rgba(0, 0, 0, 0.5) !important;
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+    .primeira-parte::after {
+        display: none;
     }
 }
 
