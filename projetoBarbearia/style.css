@@ -7,7 +7,7 @@ body {
 
 .primeira-parte {
     background: url(img/fundoNormal.png);
-    background-position: 10% center;
+    background-position: center;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,12 +24,6 @@ body {
     pointer-events: none;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 100%);
     z-index: 2;
-}
-
-
-
-#mensagem-centro {
-    animation: fadeInUp 1s ease;
 }
 
 
@@ -146,7 +140,6 @@ span, i{
     min-height: 350px;
     display: flex;
     flex-direction: column;
-    animation: fadeInUp 1s ease;
 }
 
 
@@ -157,7 +150,6 @@ span, i{
 .carousel-item .card {
     width: 70%; 
     margin: 0 auto;
-    animation: FadeInRight 1s ease;
 }
 .carousel-item .card:hover {
     transform: none;
@@ -202,27 +194,4 @@ span, i{
     .primeira-parte::after {
         display: none;
     }
-}
-
-
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        transform: translateX(-100px);
-    } to {
-        opacity: 1;
-        transform: translateX(0);
-}
-
-}
-
-
-@keyframes fadeInUp {
-    from {
-    opacity: 0;
-    transform: translateY(100px);
-} to {
-    opacity: 1;
-    transform: translateY(0);
-}
 }
